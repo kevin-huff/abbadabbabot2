@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 node_modules
 web_modules
 .firebase
 .firebaserc
 .glitchdotcom.json
 build
+=======
+.glitchdotcom.json
+.node-gyp
+node_modules
+>>>>>>> 1287bba3e8a305fc193e174f08d875d43c329bed

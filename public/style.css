@@ -8,11 +8,12 @@ to this section's matching END comment to see page-specific styles.
 ******************************************************************************/
 /* Our default values set as CSS variables */
 :root {
-  --color-bg: #FFFFA0;
+  --color-bg: #BDC9FF;
   --color-text-main: #000000;
   --color-primary: #AFECE0;
-  --wrapper-height: 85vh;
-  --image-max-width: 320px;
+  --wrapper-height: 87vh;
+  --image-max-width: 300px;
+  --image-margin: 3rem;
   --font-family: "HK Grotesk";
   --font-family-header: "HK Grotesk";
 }
@@ -101,66 +102,91 @@ a:not(.btn--remix):visited {
 END Glitch hello-app default styles
 ******************************************************************************/
 
-/* Page structure */
 body {
   font-family: HK Grotesk;
   background-color: var(--color-bg);
 }
+
+/* Page structure */
 .wrapper {
   min-height: var(--wrapper-height);
   display: grid;
   place-items: center;
   margin: 0 1rem;
-  min-height: 86vh;
 }
 .content {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
 }
 
-/* Page titles */
-h1 {
+p {
+  font-size: 1.25rem;
+}
+
+/* Title h1 style */
+.title {
   color: #2800FF;
   font-family: HK Grotesk;
   font-style: normal;
   font-weight: bold;
   font-size: 100px;
   line-height: 105%;
-}
-.page h1 {
-  font-size: 48px;
-}
-
-.page p {
-  line-height: 1.5;
-}
-
-.page a {
-  color: #000;
-}
-
-.page a:hover {
-  text-decoration: none;
-}
-
-/* The React image and "click me" text */
-.btn--click-me {
-  user-select: none;
-  cursor: pointer;
-  white-space: nowrap;
-}
-.btn--click-me:hover {
-  text-decoration: underline;
+  margin: 2rem 0 0;
 }
 
 /* Very light scaling for our illustration */
+.illo-container {
+  display: flex;
+  justify-content: flex-end;
+}
 .illustration {
   max-width: 100%;
-  max-height: var(--image-max-width);
+  max-height: 150px;
+  margin-top: 1rem;
+}
+
+/* Styles for our custom color form and its results */
+.color-info {
+  margin-left: 5px;
+}
+.color-search {
+  margin-top: 3rem;
+}
+.color-form {
+  width: 90%;
+  max-width: 500px;
+  margin-left: 5px;
+}
+.color-form a:not(.btn--remix) {
+  font-weight: bold;
+  color: var(--color-text-main);
+  margin-top: 8px;
+}
+.color-form button {
+  margin-top: 8px;
+}
+.color-form button:hover {
   cursor: pointer;
-  padding-left: 3.5rem;
+  box-shadow: -8px 4px 20px #9BE7D8;
+}
+form {
+  margin: 0.75rem 0;
+}
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+}
+label {
+  color: #000000;
+  font-weight: bold;
 }
 
 /* Instructions */

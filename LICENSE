@@ -4,7 +4,11 @@ which it's being shared. In other words, this is us using an MIT license to
 say "we wrote this and you can do whatever you want with it."
 
 ******************************************************************************
+<<<<<<< HEAD
 ~glitch-hello-react
+=======
+~glitch-hello-node
+>>>>>>> 1287bba3e8a305fc193e174f08d875d43c329bed
 ******************************************************************************
 MIT License
 
@@ -34,6 +38,7 @@ SOFTWARE.
 ******************************************************************************
 
 THIRD-PARTY SOFTWARE
+<<<<<<< HEAD
 This is all the software we used to build this starter project. All of these
 licenses are compatible with the license above. We've included links so you
 can learn more if you want. 
@@ -54,6 +59,28 @@ URL: https://reactjs.org/
 MIT License
 
 Copyright (c) Facebook, Inc. and its affiliates.
+=======
+
+
+1. fastify: Fastify is a web framework focused on developer experience.
+2. fastify/static: Plugin for serving static files as fast as possible.
+3. handlebars.js: Minimal templating on steroids
+4. fastify/view: Templates rendering plugin support for Fastify.
+5. HK Grotesk: The font we're using. 
+
+
+******************************************************************************
+1. fastify (also applies to fastify-formbody)
+URL: https://www.fastify.io/
+     https://github.com/fastify/fastify
+******************************************************************************
+MIT License
+
+Copyright (c) 2016-2020 The Fastify Team
+
+The Fastify team members are listed at https://github.com/fastify/fastify#team
+and in the README file.
+>>>>>>> 1287bba3e8a305fc193e174f08d875d43c329bed
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -73,11 +100,16 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ******************************************************************************
+<<<<<<< HEAD
 END, react
+=======
+END, fastify
+>>>>>>> 1287bba3e8a305fc193e174f08d875d43c329bed
 ******************************************************************************
 
 
 ******************************************************************************
+<<<<<<< HEAD
 2. react-spring
 URL: https://www.react-spring.io/
      https://github.com/pmndrs/react-spring
@@ -85,6 +117,14 @@ URL: https://www.react-spring.io/
 MIT License
 
 Copyright (c) 2018-present Paul Henschel, react-spring, all contributors
+=======
+2. fastify/static
+URL: https://github.com/fastify/fastify-static
+******************************************************************************
+MIT License
+
+Copyright (c) 2017-2018 Fastify
+>>>>>>> 1287bba3e8a305fc193e174f08d875d43c329bed
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -104,11 +144,16 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ******************************************************************************
+<<<<<<< HEAD
 END, react-spring
+=======
+END, fastify/static
+>>>>>>> 1287bba3e8a305fc193e174f08d875d43c329bed
 ******************************************************************************
 
 
 ******************************************************************************
+<<<<<<< HEAD
 3. vite
 URL: https://vitejs.dev/
      https://github.com/vitejs/vite
@@ -116,6 +161,13 @@ URL: https://vitejs.dev/
 MIT License
 
 Copyright (c) 2019-present, Yuxi (Evan) You and Vite contributors
+=======
+3. handlebars.js
+URL: https://handlebarsjs.com/
+     https://github.com/handlebars-lang/handlebars.js
+******************************************************************************
+Copyright (C) 2011-2019 by Yehuda Katz
+>>>>>>> 1287bba3e8a305fc193e174f08d875d43c329bed
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -124,28 +176,49 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
+<<<<<<< HEAD
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
+=======
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+>>>>>>> 1287bba3e8a305fc193e174f08d875d43c329bed
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+<<<<<<< HEAD
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ******************************************************************************
 END, vite
+=======
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+******************************************************************************
+END, fastify-static
+>>>>>>> 1287bba3e8a305fc193e174f08d875d43c329bed
 ******************************************************************************
 
 
 ******************************************************************************
+<<<<<<< HEAD
 4. @vitejs/plugin-react
 URL: https://github.com/vitejs/vite
 ******************************************************************************
 MIT License
 
 Copyright (c) 2020-present, Yuxi (Evan) You
+=======
+4. fastify/view
+URL: https://github.com/fastify/point-of-view
+******************************************************************************
+MIT License
+
+Copyright (c) 2017 Fastify
+>>>>>>> 1287bba3e8a305fc193e174f08d875d43c329bed
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -165,6 +238,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ******************************************************************************
+<<<<<<< HEAD
 END, @vitejs/plugin-react
 ******************************************************************************
 
@@ -181,11 +255,18 @@ ISC license. No additional copyright information is present on the project's
 github or npm pages as of April 11, 2021.
 ******************************************************************************
 END, wouter
+=======
+END, fastify/view
+>>>>>>> 1287bba3e8a305fc193e174f08d875d43c329bed
 ******************************************************************************
 
 
 ******************************************************************************
+<<<<<<< HEAD
 6. HK Grotesk
+=======
+5. HK Grotesk
+>>>>>>> 1287bba3e8a305fc193e174f08d875d43c329bed
 URL: https://hanken.co/products/hk-grotesk
 ******************************************************************************
 HK Grotesk was designed by Hanken Design Co. It is shared using a SIL OFL
